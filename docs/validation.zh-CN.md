@@ -75,8 +75,12 @@
 - 对本地 5 个原版 split 使用 Sony 配置实际打补丁、签名、核验，DEX/原生库保持不变。这些文件不发布，本次也未安装到电视。
 - 自有 HUD 编译、签名、对齐及 0.2.0 / 200 版本核验通过；一次性测试密钥与 HUD 文件在短测结束后删除。
 - 源码白名单与哈希核验通过；解压源码包后独立复跑：15 项 Python 通过，1 项需要原厂输入的集成检查明确跳过，Java/JavaScript 检查通过。
-- 工作流与社区模板 YAML 本地解析通过；Linux/macOS 远端 CI 及草稿 Release 执行仍需 Git 仓库建立后实际运行。
+- 工作流与社区模板 YAML 本地解析通过；首次 Linux/macOS 源码与 Linux HUD 构建 CI [已在远端通过](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/runs/44232924347)，草稿 Release 执行仍未验证。
 
 本次是打包与模块重构，没有重新安装电视或开展实机播放。此前实机结果属于特定部署的历史记录，不代表本次重新验证了 v0.2.0 播放。
 
 后续上键生命周期修复：离开播放页会使待处理请求与已排队的旧按键回调失效。Java 回归检查覆盖切页、延迟回调、单次触发、过期、取消及同页控制栏延迟出现。源码检查与 HUD 构建核验通过；未安装到电视。
+
+## 首次 GitHub 验证 — 2026-11-18
+
+源码已上传公开仓库 `main`。[基线提交 ef719b2 的 CI](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/runs/44232924347) 通过：Linux/macOS 上 Python 3.10/3.12 源码检查及 Linux Android HUD/源码包构建。私密漏洞报告已启用。上传不含原厂输入、本地签名密钥、诊断日志或构建产物；没有创建 GitHub Release 或版本标签。

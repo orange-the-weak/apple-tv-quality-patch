@@ -19,4 +19,5 @@ SHA-256 sidecars and the internal file manifest detect corruption; they do not i
 ## v0.2.0 readiness / 当前状态
 
 - Source preparation, modularization, documentation and local validation: see [release notes](releases/v0.2.0.md).
-- Git repository/tag, remote CI, private reporting configuration, release signing identity and public publication: maintainer steps, not yet performed by this preparation.
+- Public source repository, initial remote CI and private vulnerability reporting are live: [repository](https://github.com/orange-the-weak/apple-tv-quality-patch), [first successful CI](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/runs/44232924347).
+- A version tag, draft/public Release, stable HUD release signing key and branch-protection rules are still separate maintainer steps. No formal Release was published by the source upload.

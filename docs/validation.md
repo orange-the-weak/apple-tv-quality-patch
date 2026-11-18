@@ -75,8 +75,12 @@ The open-source default remains the platform video budget (`0`); the 128-MiB set
 - Five original APK splits were locally patched with the explicit Sony profile, signed and verified; unchanged DEX/native payload checks passed. These local-only artifacts are not distributed or installed by this task.
 - Own HUD compiles, signs, aligns and reports version 0.2.0 / 200. The disposable build-test key and HUD artifact are deleted after the smoke test.
 - Source-only archive hashes and file allowlist pass. An extracted source archive reruns all source checks: 15 Python checks pass, one proprietary-fixture integration check is explicitly skipped, Java/JavaScript suites pass.
-- Workflow/template YAML parses locally. Linux/macOS CI matrix and draft-release execution still require a published Git repository and actual remote runs.
+- Workflow/template YAML parses locally. The first Linux/macOS source matrix and Linux HUD build CI passed; see [remote run](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/runs/44232924347). Draft-release execution remains untested.
 
 No new TV installation or physical playback session was performed for this packaging refactor. Earlier physical results above remain deployment-specific historical evidence, not fresh v0.2.0 playback validation.
 
 Follow-up UP lifecycle fix: pending requests and queued key callbacks are invalidated across page exits. Java regression cases cover page changes, delayed callbacks, single-use requests, expiry, cancellation and delayed same-page controls. Source suites and HUD build verification pass; no TV installation was performed.
+
+## Initial GitHub verification — 2026-11-18
+
+Public source repository uploaded on `main`. [CI for baseline commit ef719b2](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/runs/44232924347) passed: Linux/macOS source checks on Python 3.10/3.12 and the Linux Android HUD/source-archive build. Private vulnerability reporting is enabled. No vendor input, local signing keys, diagnostic logs or build artifacts were pushed; no GitHub Release or version tag was created by this upload.

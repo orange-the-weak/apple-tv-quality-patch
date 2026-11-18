@@ -1,5 +1,7 @@
 # Apple TV Quality Patch
 
+[![Source and build checks](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/workflows/test.yml/badge.svg)](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/workflows/test.yml)
+
 English | [简体中文](README.zh-CN.md)
 
 **Choose the highest available variant. See what the player is doing.**

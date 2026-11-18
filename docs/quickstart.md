@@ -4,7 +4,7 @@
 
 Run from a source checkout; installation as a PyPI package is not supported. Requirements: Python 3.10+, Node.js 20+ (JavaScript checks and tests), JDK 17+, Android SDK Platform 34, Build Tools 34.0.0, and ADB.
 
-Local source and Android builds were checked on macOS. Linux/macOS source CI and Linux HUD build CI are configured but have not run remotely; Linux execution and Windows remain unverified.
+Local source and Android builds were checked on macOS. Linux/macOS source CI and Linux HUD build CI have passed on GitHub Actions. Windows and additional physical TVs remain unverified.
 
 ```sh
 export ANDROID_SDK_ROOT=/path/to/android-sdk

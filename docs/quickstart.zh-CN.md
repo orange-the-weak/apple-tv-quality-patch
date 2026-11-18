@@ -2,7 +2,7 @@
 
 ## 环境
 
-源码检出目录运行，暂不作为PyPI包安装。需要 Python 3.10+、Node.js 20+（JS检查和测试）、JDK 17+、Android SDK Platform 34、Build Tools 34.0.0 和 ADB。已在 macOS 本地验证源码检查与 Android 构建；Linux/macOS 源码 CI 及 Linux HUD 构建 CI 已配置，尚未在远端运行。Linux 执行和 Windows 均未验证。
+源码检出目录运行，暂不作为PyPI包安装。需要 Python 3.10+、Node.js 20+（JS检查和测试）、JDK 17+、Android SDK Platform 34、Build Tools 34.0.0 和 ADB。已在 macOS 本地验证源码检查与 Android 构建；Linux/macOS 源码 CI 及 Linux HUD 构建 CI 已在 GitHub Actions 通过。Windows 和其他电视实机仍未验证。
 
 ```sh
 export ANDROID_SDK_ROOT=/path/to/android-sdk

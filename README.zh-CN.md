@@ -1,5 +1,7 @@
 # Apple TV Quality Patch
 
+[![Source and build checks](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/workflows/test.yml/badge.svg)](https://github.com/orange-the-weak/apple-tv-quality-patch/actions/workflows/test.yml)
+
 [English](README.md) | 简体中文
 
 **选择片源提供的最高档位，看清播放器的实际状态。**

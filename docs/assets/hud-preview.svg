@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+<title id="title">Playback HUD illustration</title><desc id="desc">Illustrative screen showing video bitrate, separate audio and video buffers, and a network history graph. It is not a device screenshot or benchmark.</desc>
+<rect width="960" height="400" rx="20" fill="#101821"/>
+<path d="M0 370L190 190L360 345L560 160L790 360L960 260V400H0Z" fill="#1e3340"/>
+<rect x="480" y="22" width="452" height="348" rx="14" fill="#090f17" fill-opacity=".86"/>
+<g fill="#edf5fc" font-family="sans-serif" font-size="18"><text x="502" y="56">Playback info · Apple TV</text><text x="502" y="90">Video: 3840 × 1920 · Dolby Vision</text><text x="502" y="121">Video bitrate: 25.37 Mbps</text><text x="502" y="152">Buffer: video 38.7 s · audio 42.2 s</text><text x="502" y="183">Audio output: DD+</text><text x="502" y="214">Download: 4.25 MB/s · 34.0 Mbps</text></g>
+<g stroke="#3e5362"><path d="M502 254H910M502 284H910M502 314H910"/></g>
+<path d="M502 307L528 296L557 302L586 268L618 291L645 251L674 278L704 265L733 297L762 264L794 276L826 249L858 292L885 269L910 282" stroke="#64d8f5" stroke-width="3" fill="none"/>
+<text x="502" y="344" font-family="sans-serif" font-size="14" fill="#b7c8d7">Illustration — not a benchmark screenshot</text>
+<text x="36" y="54" font-family="sans-serif" font-size="24" fill="#d0e3ef">Your player. More visibility.</text>
+<text x="36" y="88" font-family="sans-serif" font-size="17" fill="#9eb6c8">UP follows controls · 123 toggles manually</text>
+</svg>

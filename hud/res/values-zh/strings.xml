@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">播放信息面板</string>
+    <string name="service_description">123 开关播放信息；Apple TV 播放页按上键随控制栏显示和隐藏，上键仍传递给播放器。</string>
+    <string name="waiting_decoder">等待系统解码记录</string>
+    <string name="player">播放器</string>
+    <string name="format_unavailable">输出格式未公开</string>
+    <string name="loading">播放信息\n正在读取…</string>
+    <string name="no_session">无活动播放会话</string>
+    <string name="no_player_data">无当前播放器记录</string>
+    <string name="video_unknown">当前视频格式：未知</string>
+    <string name="video">视频：%1$s</string>
+    <string name="bitrate">视频码率：%1$.2f Mbps</string>
+    <string name="buffer">缓冲：%1$.1f 秒%2$s</string>
+    <string name="buffering">" · 正在缓冲"</string>
+    <string name="buffer_tracks">缓冲：视频 %1$.1f 秒 · 音频 %2$.1f 秒%3$s</string>
+    <string name="waiting">" · 等待"</string>
+    <string name="atmos_joc">Dolby Atmos（DD+ JOC）</string>
+    <string name="decoder">当前解码：%1$s · 尺寸未知</string>
+    <string name="frame">当前画面：%1$s%2$s</string>
+    <string name="codec_unknown">" · 编码未知"</string>
+    <string name="ethernet">有线</string>
+    <string name="system_total">系统合计</string>
+    <string name="network_loading">网速读取中</string>
+    <string name="download">下载：%1$.2f MB/s · %2$.2f Mbps\n本次累计：%3$.1f MB</string>
+    <string name="heading">播放信息 · %1$s</string>
+    <string name="audio_output">音频输出：%1$s</string>
+    <string name="stats_unavailable">播放信息\n系统统计暂不可用</string>
+    <string name="graph_caption">网速 · 近 120 秒    0—%1$.0f Mbps</string>
+</resources>

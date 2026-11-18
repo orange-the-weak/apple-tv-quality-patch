@@ -1,0 +1,11 @@
+This independent project is not affiliated with or endorsed by Apple Inc.
+Apple, Apple TV, Dolby and Android are trademarks of their respective owners.
+
+The MIT license covers the original patching tools and HUD code in this project.
+It does not grant any rights to Apple TV APKs, vendor JavaScript, media or other
+third-party software. Vendor APKs, extracted bundles, signing keys, credentials,
+playback URLs and captured device logs are not part of the source release.
+Small version-specific match anchors identify code supplied locally by the user.
+
+The project changes client quality selection and local buffering behavior.
+It does not supply content, account access, DRM keys or subscription entitlements.

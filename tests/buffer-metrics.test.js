@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const context={};vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(__dirname,'../atvpatch/payloads/buffer-metrics.js'),'utf8'),context);
+const tracks=[{totalBytes:70000000,maxTotalBytes:80000000,gotQuotaExceeded:true,bufferedSegments:[{},{}]}, {totalBytes:1500000,maxTotalBytes:2000000,gotQuotaExceeded:false,bufferedSegments:[{}]}];
+const player={hls:{bc:{bufferMonitorInfo:{lowWaterLevelSeconds:6,highWaterLevelSeconds:54,maxBufferSeconds:60},sourceBufferEntities:tracks,paused:true,stopStreaming:false},$u:{_localAhead:{ready:true}}},mediaElement:{currentTime:100,mediaSource:{sourceBuffers:[{mimeType:'video/hevc',maxBufferSize:83886080,buffered:{length:1,start(){return 88;}}}]}}};
+const before=JSON.stringify(player);const result=context.localBufferMetrics(player);
+assert.equal(result.bufferLowSeconds,6);assert.equal(result.bufferHighSeconds,54);assert.equal(result.mediaPaused,true);
+assert.equal(result.videoBytes,70000000);assert.equal(result.videoPeakBytes,80000000);assert.equal(result.videoQuotaSeen,true);
+assert.equal(result.videoConfiguredBytes,83886080);assert.equal(result.videoBehindSeconds,12);assert.equal(result.prefetchReady,true);
+assert.equal(JSON.stringify(player),before,'diagnostics must not change watermarks, limits, or buffers');
+assert.equal(Object.keys(context.localBufferMetrics({})).length,0);
+console.log('Read-only buffer diagnostics passed');

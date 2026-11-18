@@ -1,0 +1,16 @@
+{
+  "id": "apple-tv-14.3.1",
+  "package": "com.apple.atve.androidtv.appletv",
+  "version": "14.3.1",
+  "version_code": "143100",
+  "assets": {
+    "PlayerPage.js": "b134d006cf684817b7d4cb7107b5c858770efbfb56b0a6467b18f9a9a4fd4aef",
+    "app-worker.chunk.js": "aef2005a5327f859184315d3f816d385febd3c53c930570668132f0aaf1696f7",
+    "hls-adopted.chunk.js": "f9d2b6b705824076fb3486811cabb1fcd85c766f97185f51d476fa1cb651afe6"
+  },
+  "transforms": [
+    "worker-quality-telemetry-budget",
+    "hls-manual-pause-prefetch",
+    "player-route-visibility-held-keys"
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Playback Info Panel</string>
+    <string name="service_description">Toggle diagnostics with 123. In the Apple TV playback screen, UP follows the player controls and continues to the player.</string>
+    <string name="waiting_decoder">Waiting for decoder data</string>
+    <string name="player">Player</string>
+    <string name="format_unavailable">Format not exposed</string>
+    <string name="loading">Playback info\nReading…</string>
+    <string name="no_session">No active playback session</string>
+    <string name="no_player_data">No current player data</string>
+    <string name="video_unknown">Video format: unknown</string>
+    <string name="video">Video: %1$s</string>
+    <string name="bitrate">Video bitrate: %1$.2f Mbps</string>
+    <string name="buffer">Buffer: %1$.1f s%2$s</string>
+    <string name="buffering">" · Buffering"</string>
+    <string name="buffer_tracks">Buffer: video %1$.1f s · audio %2$.1f s%3$s</string>
+    <string name="waiting">" · Waiting"</string>
+    <string name="atmos_joc">Dolby Atmos (DD+ JOC)</string>
+    <string name="decoder">Decoder: %1$s · size unknown</string>
+    <string name="frame">Frame: %1$s%2$s</string>
+    <string name="codec_unknown">" · codec unknown"</string>
+    <string name="ethernet">Ethernet</string>
+    <string name="system_total">System total</string>
+    <string name="network_loading">Reading network speed</string>
+    <string name="download">Download: %1$.2f MB/s · %2$.2f Mbps\nSession total: %3$.1f MB</string>
+    <string name="heading">Playback info · %1$s</string>
+    <string name="audio_output">Audio output: %1$s</string>
+    <string name="stats_unavailable">Playback info\nSystem stats unavailable</string>
+    <string name="graph_caption">Network · last 120 s    0–%1$.0f Mbps</string>
+</resources>

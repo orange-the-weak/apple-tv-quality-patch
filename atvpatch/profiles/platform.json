@@ -1,0 +1,1 @@
+{"id":"platform","video_buffer_mib":0,"notes":"Preserve platform byte budgets; no device-specific allocation override."}

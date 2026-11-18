@@ -1,0 +1,1 @@
+{"id":"sony-x75j","video_buffer_mib":128,"tested":{"model":"Sony X75J","android":"12","abi":"armeabi-v7a","app":"14.3.1"},"notes":"Explicit opt-in profile. Measure available memory; matching a model name is not proof of compatibility."}
